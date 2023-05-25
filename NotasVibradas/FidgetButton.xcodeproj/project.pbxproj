@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCB110DE2A1D35A500B03B27 /* FidgetButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB110DD2A1D35A500B03B27 /* FidgetButtonApp.swift */; };
+		CCB110E02A1D35A500B03B27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB110DF2A1D35A500B03B27 /* ContentView.swift */; };
+		CCB110E22A1D35A600B03B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB110E12A1D35A600B03B27 /* Assets.xcassets */; };
+		CCB110E52A1D35A600B03B27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB110E42A1D35A600B03B27 /* Preview Assets.xcassets */; };
+		CCB110EF2A1D35A600B03B27 /* FidgetButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB110EE2A1D35A600B03B27 /* FidgetButtonTests.swift */; };
+		CCB110F92A1D35A600B03B27 /* FidgetButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB110F82A1D35A600B03B27 /* FidgetButtonUITests.swift */; };
+		CCB110FB2A1D35A600B03B27 /* FidgetButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB110FA2A1D35A600B03B27 /* FidgetButtonUITestsLaunchTests.swift */; };
+		CCBD639E2A1FD16900006BE0 /* si.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCBD63962A1FD16900006BE0 /* si.mp3 */; };
+		CCBD639F2A1FD16900006BE0 /* mi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCBD63972A1FD16900006BE0 /* mi.mp3 */; };
+		CCBD63A02A1FD16900006BE0 /* la.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCBD63982A1FD16900006BE0 /* la.mp3 */; };
+		CCBD63A12A1FD16900006BE0 /* la_grave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCBD63992A1FD16900006BE0 /* la_grave.mp3 */; };
+		CCBD63A22A1FD16900006BE0 /* si_grave 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCBD639A2A1FD16900006BE0 /* si_grave 2.mp3 */; };
+		CCBD63A32A1FD16900006BE0 /* sol_grave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCBD639B2A1FD16900006BE0 /* sol_grave.mp3 */; };
+		CCBD63A42A1FD16900006BE0 /* re.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCBD639C2A1FD16900006BE0 /* re.mp3 */; };
+		CCBD63A52A1FD16900006BE0 /* sol.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCBD639D2A1FD16900006BE0 /* sol.mp3 */; };
+		CCBD63A92A1FD17400006BE0 /* fa_grave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCBD63A62A1FD17400006BE0 /* fa_grave.mp3 */; };
+		CCBD63AA2A1FD17400006BE0 /* do.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCBD63A72A1FD17400006BE0 /* do.mp3 */; };
+		CCBD63AB2A1FD17400006BE0 /* fa 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCBD63A82A1FD17400006BE0 /* fa 2.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCB110EB2A1D35A600B03B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB110D22A1D35A500B03B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB110D92A1D35A500B03B27;
+			remoteInfo = FidgetButton;
+		};
+		CCB110F52A1D35A600B03B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB110D22A1D35A500B03B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB110D92A1D35A500B03B27;
+			remoteInfo = FidgetButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCB110DA2A1D35A500B03B27 /* FidgetButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FidgetButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB110DD2A1D35A500B03B27 /* FidgetButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidgetButtonApp.swift; sourceTree = "<group>"; };
+		CCB110DF2A1D35A500B03B27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCB110E12A1D35A600B03B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCB110E42A1D35A600B03B27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCB110EA2A1D35A600B03B27 /* FidgetButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FidgetButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB110EE2A1D35A600B03B27 /* FidgetButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidgetButtonTests.swift; sourceTree = "<group>"; };
+		CCB110F42A1D35A600B03B27 /* FidgetButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FidgetButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB110F82A1D35A600B03B27 /* FidgetButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidgetButtonUITests.swift; sourceTree = "<group>"; };
+		CCB110FA2A1D35A600B03B27 /* FidgetButtonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidgetButtonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCBD63962A1FD16900006BE0 /* si.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = si.mp3; sourceTree = SOURCE_ROOT; };
+		CCBD63972A1FD16900006BE0 /* mi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mi.mp3; sourceTree = SOURCE_ROOT; };
+		CCBD63982A1FD16900006BE0 /* la.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = la.mp3; sourceTree = SOURCE_ROOT; };
+		CCBD63992A1FD16900006BE0 /* la_grave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = la_grave.mp3; sourceTree = SOURCE_ROOT; };
+		CCBD639A2A1FD16900006BE0 /* si_grave 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "si_grave 2.mp3"; sourceTree = SOURCE_ROOT; };
+		CCBD639B2A1FD16900006BE0 /* sol_grave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sol_grave.mp3; sourceTree = SOURCE_ROOT; };
+		CCBD639C2A1FD16900006BE0 /* re.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = re.mp3; sourceTree = SOURCE_ROOT; };
+		CCBD639D2A1FD16900006BE0 /* sol.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sol.mp3; sourceTree = SOURCE_ROOT; };
+		CCBD63A62A1FD17400006BE0 /* fa_grave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fa_grave.mp3; sourceTree = SOURCE_ROOT; };
+		CCBD63A72A1FD17400006BE0 /* do.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = do.mp3; sourceTree = SOURCE_ROOT; };
+		CCBD63A82A1FD17400006BE0 /* fa 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fa 2.mp3"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB110D72A1D35A500B03B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB110E72A1D35A600B03B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB110F12A1D35A600B03B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCB110D12A1D35A500B03B27 = {
+			isa = PBXGroup;
+			children = (
+				CCB110DC2A1D35A500B03B27 /* FidgetButton */,
+				CCB110ED2A1D35A600B03B27 /* FidgetButtonTests */,
+				CCB110F72A1D35A600B03B27 /* FidgetButtonUITests */,
+				CCB110DB2A1D35A500B03B27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB110DB2A1D35A500B03B27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB110DA2A1D35A500B03B27 /* FidgetButton.app */,
+				CCB110EA2A1D35A600B03B27 /* FidgetButtonTests.xctest */,
+				CCB110F42A1D35A600B03B27 /* FidgetButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB110DC2A1D35A500B03B27 /* FidgetButton */ = {
+			isa = PBXGroup;
+			children = (
+				CCB110DD2A1D35A500B03B27 /* FidgetButtonApp.swift */,
+				CCB110DF2A1D35A500B03B27 /* ContentView.swift */,
+				CCB110E12A1D35A600B03B27 /* Assets.xcassets */,
+				CCBD63992A1FD16900006BE0 /* la_grave.mp3 */,
+				CCBD63982A1FD16900006BE0 /* la.mp3 */,
+				CCBD63972A1FD16900006BE0 /* mi.mp3 */,
+				CCBD639C2A1FD16900006BE0 /* re.mp3 */,
+				CCBD639A2A1FD16900006BE0 /* si_grave 2.mp3 */,
+				CCBD63962A1FD16900006BE0 /* si.mp3 */,
+				CCBD639B2A1FD16900006BE0 /* sol_grave.mp3 */,
+				CCBD639D2A1FD16900006BE0 /* sol.mp3 */,
+				CCBD63A72A1FD17400006BE0 /* do.mp3 */,
+				CCBD63A82A1FD17400006BE0 /* fa 2.mp3 */,
+				CCBD63A62A1FD17400006BE0 /* fa_grave.mp3 */,
+				CCB110E32A1D35A600B03B27 /* Preview Content */,
+			);
+			path = FidgetButton;
+			sourceTree = "<group>";
+		};
+		CCB110E32A1D35A600B03B27 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCB110E42A1D35A600B03B27 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCB110ED2A1D35A600B03B27 /* FidgetButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB110EE2A1D35A600B03B27 /* FidgetButtonTests.swift */,
+			);
+			path = FidgetButtonTests;
+			sourceTree = "<group>";
+		};
+		CCB110F72A1D35A600B03B27 /* FidgetButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB110F82A1D35A600B03B27 /* FidgetButtonUITests.swift */,
+				CCB110FA2A1D35A600B03B27 /* FidgetButtonUITestsLaunchTests.swift */,
+			);
+			path = FidgetButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB110D92A1D35A500B03B27 /* FidgetButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB110FE2A1D35A600B03B27 /* Build configuration list for PBXNativeTarget "FidgetButton" */;
+			buildPhases = (
+				CCB110D62A1D35A500B03B27 /* Sources */,
+				CCB110D72A1D35A500B03B27 /* Frameworks */,
+				CCB110D82A1D35A500B03B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FidgetButton;
+			productName = FidgetButton;
+			productReference = CCB110DA2A1D35A500B03B27 /* FidgetButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCB110E92A1D35A600B03B27 /* FidgetButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB111012A1D35A600B03B27 /* Build configuration list for PBXNativeTarget "FidgetButtonTests" */;
+			buildPhases = (
+				CCB110E62A1D35A600B03B27 /* Sources */,
+				CCB110E72A1D35A600B03B27 /* Frameworks */,
+				CCB110E82A1D35A600B03B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB110EC2A1D35A600B03B27 /* PBXTargetDependency */,
+			);
+			name = FidgetButtonTests;
+			productName = FidgetButtonTests;
+			productReference = CCB110EA2A1D35A600B03B27 /* FidgetButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCB110F32A1D35A600B03B27 /* FidgetButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB111042A1D35A600B03B27 /* Build configuration list for PBXNativeTarget "FidgetButtonUITests" */;
+			buildPhases = (
+				CCB110F02A1D35A600B03B27 /* Sources */,
+				CCB110F12A1D35A600B03B27 /* Frameworks */,
+				CCB110F22A1D35A600B03B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB110F62A1D35A600B03B27 /* PBXTargetDependency */,
+			);
+			name = FidgetButtonUITests;
+			productName = FidgetButtonUITests;
+			productReference = CCB110F42A1D35A600B03B27 /* FidgetButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB110D22A1D35A500B03B27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CCB110D92A1D35A500B03B27 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CCB110E92A1D35A600B03B27 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CCB110D92A1D35A500B03B27;
+					};
+					CCB110F32A1D35A600B03B27 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CCB110D92A1D35A500B03B27;
+					};
+				};
+			};
+			buildConfigurationList = CCB110D52A1D35A500B03B27 /* Build configuration list for PBXProject "FidgetButton" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB110D12A1D35A500B03B27;
+			productRefGroup = CCB110DB2A1D35A500B03B27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB110D92A1D35A500B03B27 /* FidgetButton */,
+				CCB110E92A1D35A600B03B27 /* FidgetButtonTests */,
+				CCB110F32A1D35A600B03B27 /* FidgetButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB110D82A1D35A500B03B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBD63A02A1FD16900006BE0 /* la.mp3 in Resources */,
+				CCBD63A52A1FD16900006BE0 /* sol.mp3 in Resources */,
+				CCBD63A12A1FD16900006BE0 /* la_grave.mp3 in Resources */,
+				CCB110E52A1D35A600B03B27 /* Preview Assets.xcassets in Resources */,
+				CCB110E22A1D35A600B03B27 /* Assets.xcassets in Resources */,
+				CCBD63A92A1FD17400006BE0 /* fa_grave.mp3 in Resources */,
+				CCBD63A22A1FD16900006BE0 /* si_grave 2.mp3 in Resources */,
+				CCBD63A42A1FD16900006BE0 /* re.mp3 in Resources */,
+				CCBD63A32A1FD16900006BE0 /* sol_grave.mp3 in Resources */,
+				CCBD639F2A1FD16900006BE0 /* mi.mp3 in Resources */,
+				CCBD639E2A1FD16900006BE0 /* si.mp3 in Resources */,
+				CCBD63AA2A1FD17400006BE0 /* do.mp3 in Resources */,
+				CCBD63AB2A1FD17400006BE0 /* fa 2.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB110E82A1D35A600B03B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB110F22A1D35A600B03B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB110D62A1D35A500B03B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB110E02A1D35A500B03B27 /* ContentView.swift in Sources */,
+				CCB110DE2A1D35A500B03B27 /* FidgetButtonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB110E62A1D35A600B03B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB110EF2A1D35A600B03B27 /* FidgetButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB110F02A1D35A600B03B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB110F92A1D35A600B03B27 /* FidgetButtonUITests.swift in Sources */,
+				CCB110FB2A1D35A600B03B27 /* FidgetButtonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCB110EC2A1D35A600B03B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB110D92A1D35A500B03B27 /* FidgetButton */;
+			targetProxy = CCB110EB2A1D35A600B03B27 /* PBXContainerItemProxy */;
+		};
+		CCB110F62A1D35A600B03B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB110D92A1D35A500B03B27 /* FidgetButton */;
+			targetProxy = CCB110F52A1D35A600B03B27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCB110FC2A1D35A600B03B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCB110FD2A1D35A600B03B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB110FF2A1D35A600B03B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FidgetButton/Preview Content\"";
+				DEVELOPMENT_TEAM = 8LJ8ZQT8NW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NotasVibrantes;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.FidgetButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCB111002A1D35A600B03B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FidgetButton/Preview Content\"";
+				DEVELOPMENT_TEAM = 8LJ8ZQT8NW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NotasVibrantes;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.FidgetButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCB111022A1D35A600B03B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LJ8ZQT8NW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.FidgetButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FidgetButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FidgetButton";
+			};
+			name = Debug;
+		};
+		CCB111032A1D35A600B03B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LJ8ZQT8NW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.FidgetButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FidgetButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FidgetButton";
+			};
+			name = Release;
+		};
+		CCB111052A1D35A600B03B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LJ8ZQT8NW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.FidgetButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FidgetButton;
+			};
+			name = Debug;
+		};
+		CCB111062A1D35A600B03B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LJ8ZQT8NW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.FidgetButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FidgetButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB110D52A1D35A500B03B27 /* Build configuration list for PBXProject "FidgetButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB110FC2A1D35A600B03B27 /* Debug */,
+				CCB110FD2A1D35A600B03B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB110FE2A1D35A600B03B27 /* Build configuration list for PBXNativeTarget "FidgetButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB110FF2A1D35A600B03B27 /* Debug */,
+				CCB111002A1D35A600B03B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB111012A1D35A600B03B27 /* Build configuration list for PBXNativeTarget "FidgetButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB111022A1D35A600B03B27 /* Debug */,
+				CCB111032A1D35A600B03B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB111042A1D35A600B03B27 /* Build configuration list for PBXNativeTarget "FidgetButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB111052A1D35A600B03B27 /* Debug */,
+				CCB111062A1D35A600B03B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB110D22A1D35A500B03B27 /* Project object */;
+}
