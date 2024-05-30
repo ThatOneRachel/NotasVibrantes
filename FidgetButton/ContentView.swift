@@ -1,9 +1,6 @@
 import SwiftUI
-import SpriteKit
 import AVFoundation
 import CoreHaptics
-
-//MARK - rodar em um iphone, não no simulador
 
 struct ContentView: View {
     @State var notes: Float = 0.0
@@ -44,45 +41,43 @@ struct ContentView: View {
     
     @State var x: Bool = false
     var body: some View {
+//escala de mi maior
 
- 
-        let notesvalues: [Float] = [0.0, 0.08, 0.16, 0.25, 0.30, 0.40, 0.75, 0.91, 1.0]
-        let noteName: [String] = ["F2", "G2", "A3", "B3", "C3", "D3","E3", "F3", "G3"]
+        let notesvalues: [Float] = [0.0, 0.12, 0.25, 0.30, 0.40, 0.50, 0.60, 0.70]
+        let noteName: [String] = ["E1", "F1#", "G1#", "A2", "B2", "C2#","D2#", "E2"]
        
         HStack{
             ForEach(0..<notesvalues.count, id: \.self){ n in
                 Button{
+                    //mudar para notename dps
                     notes = notesvalues[n]
                     switch (notes) {
                     case 0.0:
-                        SoundManeger.shared.playSound(name: "fa_grave")
+                        SoundManeger.shared.playSound(name: "mi1")
                         
-                    case 0.08:
-                        SoundManeger.shared.playSound(name: "sol_grave")
-                        
-                    case 0.16:
-                        SoundManeger.shared.playSound(name: "la_grave")
+                    case 0.12:
+                        SoundManeger.shared.playSound(name: "fa1")
                         
                     case 0.25:
-                        SoundManeger.shared.playSound(name: "si_grave 2")
+                        SoundManeger.shared.playSound(name: "sol1")
                         
                     case 0.30:
-                        SoundManeger.shared.playSound(name: "do")
-                       
-                    case 0.40:
-                        SoundManeger.shared.playSound(name: "re")
-                       
-                    case 0.75:
-                        SoundManeger.shared.playSound(name: "mi")
-                       
-                    case 0.91:
-                        SoundManeger.shared.playSound(name: "fa 2")
+                        SoundManeger.shared.playSound(name: "la1")
                         
-                    case 1.0:
-                        SoundManeger.shared.playSound(name: "sol")
+                    case 0.40:
+                        SoundManeger.shared.playSound(name: "si1")
+                       
+                    case 0.50:
+                        SoundManeger.shared.playSound(name: "do1")
+                       
+                    case 0.6:
+                        SoundManeger.shared.playSound(name: "re1")
+                       
+                    case 0.70:
+                        SoundManeger.shared.playSound(name: "mi2")
                         
                     default:
-                        SoundManeger.shared.playSound(name: "la")
+                        SoundManeger.shared.playSound(name: "mi1")
                     }
                     notas()
                     
