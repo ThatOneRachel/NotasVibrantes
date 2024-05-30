@@ -11,9 +11,6 @@
 		CCB110E02A1D35A500B03B27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB110DF2A1D35A500B03B27 /* ContentView.swift */; };
 		CCB110E22A1D35A600B03B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB110E12A1D35A600B03B27 /* Assets.xcassets */; };
 		CCB110E52A1D35A600B03B27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB110E42A1D35A600B03B27 /* Preview Assets.xcassets */; };
-		CCB110EF2A1D35A600B03B27 /* FidgetButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB110EE2A1D35A600B03B27 /* FidgetButtonTests.swift */; };
-		CCB110F92A1D35A600B03B27 /* FidgetButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB110F82A1D35A600B03B27 /* FidgetButtonUITests.swift */; };
-		CCB110FB2A1D35A600B03B27 /* FidgetButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB110FA2A1D35A600B03B27 /* FidgetButtonUITestsLaunchTests.swift */; };
 		CCBD639E2A1FD16900006BE0 /* si.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCBD63962A1FD16900006BE0 /* si.mp3 */; };
 		CCBD639F2A1FD16900006BE0 /* mi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCBD63972A1FD16900006BE0 /* mi.mp3 */; };
 		CCBD63A02A1FD16900006BE0 /* la.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCBD63982A1FD16900006BE0 /* la.mp3 */; };
@@ -51,10 +48,7 @@
 		CCB110E12A1D35A600B03B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCB110E42A1D35A600B03B27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CCB110EA2A1D35A600B03B27 /* FidgetButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FidgetButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCB110EE2A1D35A600B03B27 /* FidgetButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidgetButtonTests.swift; sourceTree = "<group>"; };
 		CCB110F42A1D35A600B03B27 /* FidgetButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FidgetButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCB110F82A1D35A600B03B27 /* FidgetButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidgetButtonUITests.swift; sourceTree = "<group>"; };
-		CCB110FA2A1D35A600B03B27 /* FidgetButtonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidgetButtonUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CCBD63962A1FD16900006BE0 /* si.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = si.mp3; sourceTree = SOURCE_ROOT; };
 		CCBD63972A1FD16900006BE0 /* mi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mi.mp3; sourceTree = SOURCE_ROOT; };
 		CCBD63982A1FD16900006BE0 /* la.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = la.mp3; sourceTree = SOURCE_ROOT; };
@@ -97,8 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				CCB110DC2A1D35A500B03B27 /* FidgetButton */,
-				CCB110ED2A1D35A600B03B27 /* FidgetButtonTests */,
-				CCB110F72A1D35A600B03B27 /* FidgetButtonUITests */,
 				CCB110DB2A1D35A500B03B27 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,23 +133,6 @@
 				CCB110E42A1D35A600B03B27 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		CCB110ED2A1D35A600B03B27 /* FidgetButtonTests */ = {
-			isa = PBXGroup;
-			children = (
-				CCB110EE2A1D35A600B03B27 /* FidgetButtonTests.swift */,
-			);
-			path = FidgetButtonTests;
-			sourceTree = "<group>";
-		};
-		CCB110F72A1D35A600B03B27 /* FidgetButtonUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CCB110F82A1D35A600B03B27 /* FidgetButtonUITests.swift */,
-				CCB110FA2A1D35A600B03B27 /* FidgetButtonUITestsLaunchTests.swift */,
-			);
-			path = FidgetButtonUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCB110EF2A1D35A600B03B27 /* FidgetButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,8 +292,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCB110F92A1D35A600B03B27 /* FidgetButtonUITests.swift in Sources */,
-				CCB110FB2A1D35A600B03B27 /* FidgetButtonUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
